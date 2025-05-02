@@ -7,43 +7,60 @@
         <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <h1>
-                Bryan Castro | Entry Level Software Engineer 
-            </h1>
-            <nav>
-                <li>
-                    <a href="#about-section">About</a>
-                </li>
-                <li>
-                    <a href="#projects-section">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact-section">Contact</a>
-                </li>
-            </nav>
+        <header class="nav-list">
+            <a href="#contact-section">Contact</a>
+            <a href="#about-section">About</a>
+            <a href="#projects-section">Projects</a>
         </header>
         <main>
-            <div id="about-section">
-                <h2>
-                    About Me
+            <section id="main-section">
+                <p id="greeting">
+                    Hello! My name is, 
+                </p>
+                <h1 id="my-name">
+                    Bryan Castro
+                </h1>
+                <h2 id="current-position">
+                    Software Engineer
                 </h2>
+                <p id="my-intro">
+                    Hello, my name is Bryan Castro. I am a recent graduate from West Texas A&M University
+                    with a Bachelor's in Computer Science. I am passionate about machine learning, web
+                    developement, and game developement. I aspire to create large-scale projects in my 
+                    journey of becoming a better software engineer. 
+                </p>
                 <img
                     width="250px"
                     src="images\myself.JPEG"
+                    id="myself-at-buffalo-founatin"
                     alt="Picture of myself, Bryan Castro, in front of Buffalo Fountain at West Texas A&M Universityj"
                 />
-            </div>
-            <div id="projects-section">
+            </section>
+            <hr>
+            <section id="about-section">
+                <h2>
+                    About Me
+                </h2>
+            </section>
+            <hr>
+            <section id="projects-section">
                 <h2>
                     My Projects & Contributions
                 </h2>
-                <p>
-                    Currently working on other sections, but will come back and
-                    finish this at a later time.
-                </p>
-            </div>
-            <div id="contact-section">
+                <ul>
+                    <li>
+                        American Sign Language using Artificial Intelligence
+                    </li>
+                    <li>
+                        <i>The Game</i> - A Schmup by some friends and I
+                    </li>
+                    <li>
+                        Restaurant Menu using HTML
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section id="contact-section">
                 <h2>
                     Contact Me
                 </h2>
@@ -51,7 +68,7 @@
                     Again, currently working on other sections, but will come back and
                     finish this section at a later time. 
                 </p>
-            </div>
+            </section>
         </main>
         <footer>
         </footer>
