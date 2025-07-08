@@ -80,15 +80,39 @@ header {
     color: #B2FFFF;
 }
 
-#myself-at-buffalo-fountain {
-    text-align: right;
-    margin-right: 20px;
+#main-section-text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 750px;
 }
 
-#about-section {
-    background-color: #141414;
-    height: 500px;
-    position: relative;
+/* @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+} */
+
+#myself-at-buffalo-fountain {
+    /* float: right;
+    text-align: right;
+    margin-right: 20px; */
+    /* display: block; */
+    /* margin: auto; */
+    /* width: 75%; */
+    /* content: ''; */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 350px;
+    /* height: 100%;
+    width: 100%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius */
 }
 
 #projects-section {
@@ -97,9 +121,17 @@ header {
     position: relative;
 }
 
-#contact-section {
-    background-color: #3b3b3b;
+#about-section {
+    background-color: #141414;
     height: 500px;
+    position: relative;
+}
+
+#contact-me-section {
+    /* background-color: #3b3b3b; */
+    background-color: #636363;
+    height: 500px;
+    position: relative;
 }
 
 hr {
