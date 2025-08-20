@@ -9,12 +9,15 @@
     <body>
         <header class="nav-list">
             <a href="#contact-me-section">Contact Me</a>
-            <a href="#about-section">About</a>
+            <a href="#about-me-section">About Me</a>
             <a href="#projects-section">Projects</a>
         </header>
         <main>
-            <section id="main-section">
-                <div id="main-section-text">
+            <div id="introduction-section">
+                <div id="introduction-section-greeting">
+                    <!-- <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit maxime, dicta perferendis neque cum sequi, minus quaerat cumque harum praesentium doloribus qui consectetur, asperiores temporibus corrupti ipsa saepe debitis nulla.
+                    </p> -->
                     <p id="greeting">
                         Hello! My name is, 
                     </p>
@@ -25,38 +28,46 @@
                         Entry-Level Software Engineer
                     </h2>
                     <p id="my-intro">
-                        "Hello, my name is Bryan Castro. I am a recent graduate from West Texas A&M University
+                        "I am a recent graduate from West Texas A&M University
                         with a Bachelor's in Computer Science. I am passionate about machine learning, web
                         developement, and game developement. I aspire to create large-scale projects in my 
                         journey of becoming a better software engineer.""
                     </p>
                 </div>
-                <img
-                    width="250px"
-                    src="images\myself.JPEG"
-                    id="myself-at-buffalo-fountain"
-                    alt="Picture of myself, Bryan Castro, in front of Buffalo Fountain at West Texas A&M Universityj"
-                />
-            </section>
+                <!-- <div id="introduction-section-portrait"> -->
+                    <!-- <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis magni fuga dolore aliquam alias dignissimos, delectus soluta modi quibusdam doloremque, rerum voluptatibus commodi consectetur dicta minima aliquid. Molestias, debitis sequi.
+                    </p> -->
+                    <img
+                        id="introduction-section-portrait"
+                        src="images\myself.JPEG"
+                        id="myself-at-buffalo-fountain"
+                        alt="Picture of myself, Bryan Castro, in front of Buffalo Fountain at West Texas A&M University"
+                    />
+                <!-- </div> -->
+            </div>
             <hr>
-            <section id="projects-section">
-                <h2>
+            <div id="projects-section">
+                <h2 id="projects-section-title">
                     My Projects & Contributions
                 </h2>
-                <ul>
-                    <li>
+                <ul class="list-of-projects">
+                    <li class="project">
                         American Sign Language using Artificial Intelligence
                     </li>
-                    <li>
+                    <li class="project">
                         Music Genre Recognition Using Spectrograms
                     </li>
-                    <li>
+                    <li class="project">
                         Restaurant Menu using HTML
                     </li>
+                    <li class="project">
+                        <i>The Game</i> - A Unity SCHMUP Project
+                    </li>
                 </ul>
-            </section>
+            </div>
             <hr>
-            <section id="about-section">
+            <div id="about-me-section">
                 <h2>
                     About Me
                 </h2>
@@ -65,9 +76,9 @@
                     <br>
                     This is just dummy, placeholder text.
                 </p>
-            </section>
+            </div>
             <hr>
-            <section id="contact-me-section">
+            <div id="contact-me-section">
                 <h2>
                     Contact Me
                 </h2>
@@ -77,9 +88,12 @@
                     <br>
                     I wonder where this text is...
                 </p>
-            </section>
+            </div>
         </main>
-        <footer>
-        </footer>
+        <!-- <footer>
+            <p>
+                Made with love by TexMexManic!
+            </p>
+        </footer> -->
     </body>
 </html>
