@@ -106,22 +106,40 @@ header {
 .project {
     color: #B2FFFF;
 }
-
+/* 
 .list-of-projects a:hover {
     background-color: #6D8196;
     color: #111184;
-}
+} */
 
 #about-me-section {
     background-color: #141414;
     height: 500px;
     position: relative;
+    padding: 50px;
+}
+
+#about-me-section-title {
+    color: #00F0FF;
+}
+
+#about-me-section-text { 
+    color: #B2FFFF;
 }
 
 #contact-me-section {
     background-color: #636363;
     height: 500px;
     position: relative;
+    padding: 50px;
+}
+
+#contact-me-section-title {
+    color: #00F0FF;
+}
+
+#contact-me-section-text {
+    color: #B2FFFF;
 }
 
 hr {
