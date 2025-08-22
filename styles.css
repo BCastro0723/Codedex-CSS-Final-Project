@@ -106,6 +106,14 @@ header {
 .project {
     color: #B2FFFF;
 }
+
+.project-title {
+    color: #007FFF;
+}
+
+.project-description {
+    color: #B2FFFF;
+}
 /* 
 .list-of-projects a:hover {
     background-color: #6D8196;
@@ -113,10 +121,30 @@ header {
 } */
 
 #about-me-section {
-    background-color: #141414;
+    /* background-color: #141414;
     height: 500px;
     position: relative;
+    padding: 50px; */
+    background-color: black;
     padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+#about-me-section-text {
+    flex: 3;
+}
+
+#me-and-pixie-coding {
+    /* background-color: blue; */
+    flex: 2;
+    max-width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 12px;
 }
 
 #about-me-section-title {
