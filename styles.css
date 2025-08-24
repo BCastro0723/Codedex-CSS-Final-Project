@@ -134,25 +134,73 @@ header {
     position: relative;
 }
 
-#about-me-section-text {
-    flex: 3;
+.flex-container {
+    display: flex;
+    flex-direction: column;
 }
 
-#me-and-pixie-coding {
-    /* background-color: blue; */
-    flex: 2;
-    max-width: 50%;
+.flex-item-a {
+    order: 1;
+}
+
+.flex-item-b {
+    order: 2;
+}
+
+#about-me-section-title {
+    background-color: red;
+    justify-content:first baseline;
+    color: #00F0FF;
+}
+
+/* #about-me-section-text { 
+    color: #B2FFFF;
+} */
+/* #about-me-section-text {
+    flex: 3;
+} */
+
+#about-me-section-portraits {
+    background-color: blue;
+    /* padding: 50px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 10px; */
+    position: relative;
+}
+
+.portrait-column {
+    /* float: left;
+    width: 33.33%;
+    padding: 5px; */
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#trainer-picture {
+    flex: 33.33%;
+    max-width: 33.33%;
     height: auto;
     align-self: center;
     border-radius: 12px;
 }
 
-#about-me-section-title {
-    color: #00F0FF;
+#post-route66-5k-portrait {
+    flex: 33.33%;
+    max-width: 33.33%;
+    max-height: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 12px;
 }
 
-#about-me-section-text { 
-    color: #B2FFFF;
+#me-and-pixie-coding {
+    flex: 33.33%;
+    max-width: 33.33%;
+    height: auto;
+    align-self: center;
+    border-radius: 12px;
 }
 
 #contact-me-section {
@@ -168,6 +216,39 @@ header {
 
 #contact-me-section-text {
     color: #B2FFFF;
+}
+
+#github-section {
+    /* padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative; */
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+#linkedin-section {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+#email-section {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
 }
 
 hr {
