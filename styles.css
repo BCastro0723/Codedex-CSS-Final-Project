@@ -148,7 +148,7 @@ header {
 }
 
 #about-me-section-title {
-    background-color: red;
+    /* background-color: red; */
     justify-content:first baseline;
     color: #00F0FF;
 }
@@ -161,7 +161,7 @@ header {
 } */
 
 #about-me-section-portraits {
-    background-color: blue;
+    /* background-color: blue; */
     /* padding: 50px; */
     display: flex;
     /* justify-content: space-between; */
