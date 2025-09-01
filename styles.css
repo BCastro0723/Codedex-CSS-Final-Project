@@ -120,19 +120,40 @@ header {
 .project-description {
     color: #B2FFFF;
 }
+
+#aslai-screenshots, 
+#codedex-html-final-project-screenshots, 
+#the-game-screenshots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#aslai-screenshots img, 
+#codedex-html-final-project-screenshots img, 
+#the-game-screenshots img,
+#the-game-screenshots video {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* 
 .list-of-projects a:hover {
     background-color: #6D8196;
     color: #111184;
 } */
-
+/* 
 #aslai-screenshots {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     max-width: 750px;
     align-items: center;
     position: relative;
-}
+} */
 /* 
 #aslai-screenshots.flex-container {
     display: flex;
@@ -146,7 +167,7 @@ header {
 #aslai-example {
     order: 2;  
 } */
-
+/* 
 #codedex-html-final-project-screenshots {
     display: flex;
     max-width: 750px;
@@ -167,7 +188,7 @@ header {
     align-items: center;
     max-width: 750px;
     position: relative;
-}
+} */
 
 #about-me-section {
     /* background-color: #141414;
@@ -194,6 +215,10 @@ header {
 
 .flex-item-b {
     order: 2;
+}
+
+.flex-item-c {
+    order: 3;
 }
 
 #about-me-section-title {
@@ -252,6 +277,10 @@ header {
     border-radius: 12px;
 }
 
+#about-me-section-text {
+    color: #00F0FF;
+}
+
 #contact-me-section {
     background-color: #636363;
     /* height: 500px; */
@@ -302,6 +331,24 @@ header {
 }
 
 #linkedin-section:hover {
+    filter: brightness(1.5);
+}
+
+#strava-section {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* background-color: #FC4C02; */
+    /* background-color: #FC5200; */
+    background-color: #CC4200;
+    border-radius: 25px;
+    transition: filter 0.2s ease-in-out;
+    position: relative;
+}
+
+#strava-section:hover {
     filter: brightness(1.5);
 }
 
