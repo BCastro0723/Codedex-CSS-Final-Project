@@ -90,7 +90,7 @@ header {
 
 #projects-section {
     background-color: #636363;
-    height: 500px;
+    /* height: 500px; */
     position: relative;
     padding: 50px;
 }
@@ -119,6 +119,32 @@ header {
     background-color: #6D8196;
     color: #111184;
 } */
+
+#aslai-screenshots {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+}
+/* 
+#aslai-screenshots.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#aslai-homepage {
+    order: 1;
+}
+
+#aslai-example {
+    order: 2; 
+}*/
+
+#the-game-screenshots {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 
 #about-me-section {
     /* background-color: #141414;
@@ -230,7 +256,14 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    background-color: #222222;
+    border-radius: 25px;
+    transition: filter 0.2s ease-in-out;
     position: relative;
+}
+
+#github-section:hover {
+    filter: brightness(1.5);
 }
 
 #linkedin-section {
@@ -239,7 +272,14 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    background-color: #0077B5;
+    border-radius: 25px;
+    transition: filter 0.2s ease-in-out;
     position: relative;
+}
+
+#linkedin-section:hover {
+    filter: brightness(1.5);
 }
 
 #email-section {
@@ -248,7 +288,14 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    background-color: #6D8196;
+    border-radius: 25px;
+    transition: filter 0.2s ease-in-out;
     position: relative;
+}
+
+#email-section:hover {
+    filter: brightness(1.5);
 }
 
 hr {
