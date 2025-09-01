@@ -105,6 +105,12 @@ header {
 
 .project {
     color: #B2FFFF;
+    /* color: #007FFF; */
+}
+
+.project:hover {
+    background-color: #B2FFFF;
+    color: #111184;
 }
 
 .project-title {
@@ -123,6 +129,7 @@ header {
 #aslai-screenshots {
     display: flex;
     /* justify-content: space-evenly; */
+    max-width: 750px;
     align-items: center;
     position: relative;
 }
@@ -137,12 +144,28 @@ header {
 }
 
 #aslai-example {
-    order: 2; 
-}*/
+    order: 2;  
+} */
+
+#codedex-html-final-project-screenshots {
+    display: flex;
+    max-width: 750px;
+    justify-content: center;
+    position: relative;
+}
+
+#codedex-html-final-project-homepage {
+    width: 50%;
+}
+
+#codedex-html-final-project-order-form {
+    width: 50%;
+}
 
 #the-game-screenshots {
     display: flex;
     align-items: center;
+    max-width: 750px;
     position: relative;
 }
 
@@ -231,7 +254,7 @@ header {
 
 #contact-me-section {
     background-color: #636363;
-    height: 500px;
+    /* height: 500px; */
     position: relative;
     padding: 50px;
 }
